@@ -10,7 +10,7 @@ export default class HikingComponent extends Component {
     render() {
         return (
             <div>
-                <h1 align="center" color="#008000">TOUR CATEGORIES</h1>
+                <h1 align="center" color="#008000">HIKING</h1>
                 <div class="section_container second_section_container flex_container flex_center">
                     
 

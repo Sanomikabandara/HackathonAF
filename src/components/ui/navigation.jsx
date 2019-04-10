@@ -32,12 +32,13 @@ export default class NavigationComponent extends Component {
               </div>
             </div>
             <div class="flex_item menu_item menu_item_outside"><Link to="/home" ><a><p>Home</p></a></Link></div>
-            <div class="flex_item menu_item menu_item_outside"><Link to="/login" ><a><p>Login</p></a></Link></div>
             <div class="flex_item menu_item menu_item_outside"><Link to="/payment" ><a><p>Payment</p></a></Link></div>
             <div class="flex_item menu_item menu_item_outside"><Link to="/tours" ><a><p>Tours</p></a></Link></div>
-            <div class="flex_item menu_item menu_item_outside"><Link to="/signup" ><a><p>SignUp</p></a></Link></div>
-            <div class="flex_item menu_item menu_item_outside"><Link to="/educational" ><a><p>Educational</p></a></Link></div>
-            <div class="flex_item menu_item menu_item_outside"><Link to="/selectplan" ><a><p>Select Plan</p></a></Link></div>
+            <div class="flex_item menu_item menu_item_outside"><Link to="/educational" ><a><p>Educational Tours</p></a></Link></div>
+            <div class="flex_item menu_item menu_item_outside"><Link to="/selectplan" ><a><p>Summary</p></a></Link></div>
+                <div className="flex_item menu_item menu_item_outside"><Link to="/signup"><a><p>SignUp</p></a></Link></div>
+                <div className="flex_item menu_item menu_item_outside"><Link to="/login"><a><p>Login</p></a></Link>
+                </div>
 
 
             <div id="router">

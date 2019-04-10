@@ -13,7 +13,7 @@ export default class HomeComponent extends Component {
 
             <TeamComponent />
     
-            <OffersComponent />
+
   
             </div>
         );

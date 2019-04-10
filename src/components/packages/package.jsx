@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import {Card} from 'react-bootstrap';
 import BannerComponent from '../ui/banner';
 import TeamComponent from '../ui/team';
 import OffersComponent from '../ui/offers';
@@ -21,14 +22,13 @@ export default class PackageComponent extends Component {
 
     render() {
         return (
-            <a href="/payment">
+            <a href="#link1">
                 <div class={this.imagePath}>
-                
-                <div class="feature_image"></div>
-                <h2>{this.title}</h2>
-                <p>{this.desc}</p>
+                    <div class="feature_image"></div>
+                    <h2>{this.title}</h2>
+                    <p>{this.desc}</p>
                 </div>
-          </a>
+            </a>
         );
     }
 
