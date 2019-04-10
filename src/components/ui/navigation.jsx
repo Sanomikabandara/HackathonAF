@@ -9,6 +9,7 @@ import HikingComponent from '../packages/pc';
 import SignUp from '../signup/signup';
 import Educational from '../../educational/educational';
 import selecturplan from '../plans/plan';
+import Localfamily from '../plans/Localfamily';
 
 export default class NavigationComponent extends Component {
 
@@ -18,8 +19,6 @@ export default class NavigationComponent extends Component {
 
         
 
-
-        
             
             <div id="change_class" class="flex_container section menu_section">
             <div class="flex_item branding"><p></p></div>
@@ -36,9 +35,12 @@ export default class NavigationComponent extends Component {
             <div class="flex_item menu_item menu_item_outside"><Link to="/tours" ><a><p>Tours</p></a></Link></div>
             <div class="flex_item menu_item menu_item_outside"><Link to="/educational" ><a><p>Educational Tours</p></a></Link></div>
             <div class="flex_item menu_item menu_item_outside"><Link to="/selectplan" ><a><p>Summary</p></a></Link></div>
+                <div className="flex_item menu_item menu_item_outside"><Link to="/Localfamily"><a><p>Day as a Sri Lankan</p></a></Link>
+                </div>
                 <div className="flex_item menu_item menu_item_outside"><Link to="/signup"><a><p>SignUp</p></a></Link></div>
                 <div className="flex_item menu_item menu_item_outside"><Link to="/login"><a><p>Login</p></a></Link>
                 </div>
+
 
 
             <div id="router">
@@ -50,6 +52,7 @@ export default class NavigationComponent extends Component {
             <Route path="/educational" component={Educational} />
             <Route path="/selectplan" component={selecturplan} />
             <Route path="/tours/hiking" component={HikingComponent} />
+                <Route path="/plans/Localfamily" component={Localfamily} />
             </div>
 
 
