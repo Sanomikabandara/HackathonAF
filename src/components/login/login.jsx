@@ -9,7 +9,7 @@ export default class LoginComponent extends Component {
                 <div className="d-flex justify-content-center h-100">
                     <div className="card">
                         <div className="card-header">
-                            <h3>Sign In</h3>
+                            <h3>Sign Out</h3>
                             <div className="d-flex justify-content-end social_icon">
                                 <span><i class="fab fa-facebook-square"></i></span>
                                 <span><i class="fab fa-google-plus-square"></i></span>
